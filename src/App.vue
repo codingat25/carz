@@ -1,9 +1,11 @@
 <script setup>
-import Hero from "./components/Hero.vue";
+import NavigationCars from "./components/NavigationCars.vue";
 </script>
 
 <template>
-    <div class="h-screen">
-        <div class="bg-mobile-hero bg-no-repeat bg-cover bg-right-top h-3/4 md:bg-desktop-hero"></div>
+    <div class="relative h-screen">
+        <div class="bg-mobile-hero bg-no-repeat bg-cover bg-right-top h-3/4 md:bg-desktop-hero">
+          <NavigationCars/>
+        </div>
     </div>
 </template>

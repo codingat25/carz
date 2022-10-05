@@ -8,9 +8,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        orangeButton: '#FD8E35',
-        grayButton: '#F3F5F8',
-        cyanButton: '#296D8F',
+        primaryButton: '#FD8E35',
+        secondaryButton: '#F3F5F8',
+        tertiaryButton: '#296D8F',
         bgBlue: '#F3F5F8',
         bgDark: '#1F2033',
         fontColorDark: '#070920',
@@ -20,6 +20,10 @@ module.exports = {
       },
       fontFamily: {
         'sans': ['Mulish', ...defaultTheme.fontFamily.sans],
+      },
+      backgroundImage: {
+        'desktop-hero': "url('src/assets/img/desktop-hero.png')",
+        'mobile-hero': "url('src/assets/img/mobile-hero.png')",
       },
     },
   },

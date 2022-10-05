@@ -3,8 +3,8 @@
 </script>
 
 <template>
-    <div class="bg-mobile-hero bg-cover bg-center bg-no-repeat h-fit md:bg-desktop-hero md:h-screen border border-red-500">
-        <h1>TEST HERE</h1>
+    <div class="h-screen">
+        <div class="bg-mobile-hero bg-no-repeat bg-cover bg-right-top h-3/4 md:bg-desktop-hero"></div>
     </div>
 
 </template>

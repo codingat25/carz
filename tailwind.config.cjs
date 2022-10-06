@@ -25,6 +25,9 @@ module.exports = {
         'desktop-hero': "url('src/assets/img/desktop-hero.png')",
         'mobile-hero': "url('src/assets/img/mobile-hero.png')",
       },
+      height: {
+        '400': '44rem'
+      },
     },
   },
   plugins: [],

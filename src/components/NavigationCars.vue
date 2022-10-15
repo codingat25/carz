@@ -8,14 +8,16 @@
         <img src="src/assets/img/HeaderLogo.png" alt="">
     </div>
 
-    <nav class="hidden lg:flex justify-around items-center -space-x-8 w-2/4  text-white text-m font-bold">
-        <div><a href="#" class="hover:text-primaryButton">Home</a></div>
-        <div><a href="#" class="hover:text-primaryButton">Buy Vehicle</a></div>
-        <div><a href="#" class="hover:text-primaryButton">Sell Vehicle</a></div>
-        <div><a href="#" class="hover:text-primaryButton">My Inventory</a></div>
-        <div><a href="#" class="hover:text-primaryButton">Help</a></div>
-        <div><a href="#" class="hover:text-primaryButton">Contact Us</a></div>
-    </nav>
-
+    <nav>
+  	<a v-for="([title, path], i) in [
+              ['Home','/dashboard'],
+              ['Team','/team'],
+              ['Projects','/projects'],
+              ['Reports','/reports']
+              ]" :key="path">
+      {{title}} - {{path}}
+      <!-- implement this ^ -->
+    </a>
+  </nav>
 </header>
 </template>

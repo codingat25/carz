@@ -1,6 +1,7 @@
 <script setup>
 import NavigationCars from "./components/NavigationCars.vue";
 import FindVehicle from "./components/FindVehicle.vue";
+
 </script>
 
 <template>
@@ -9,6 +10,5 @@ import FindVehicle from "./components/FindVehicle.vue";
           <NavigationCars/>
           <FindVehicle/>
         </div>
-
     </div>
 </template>

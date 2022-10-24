@@ -26,7 +26,7 @@ module.exports = {
         'mobile-hero': "url('src/assets/img/mobile-hero.png')",
       },
       height: {
-        '400': '44rem'
+        'hero-height': '37.375rem'
       },
     },
   },

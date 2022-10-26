@@ -37,9 +37,12 @@ const navLinks =
 			</a>
 		</div>
 	</div>	
-	<div class="w-11/12 h-full border border-red-500">
-		<p class="text-white">WELCOME TO</p>
-		<p class="text-white font-extrabold text-4xl">CARBID360</p>
+	<div class="flex flex-col justify-center w-11/12 h-full text-white font-bold border border-red-500">
+		<p class="text-2xl font-medium">WELCOME TO</p>
+		<p class="font-extrabold text-5xl py-3">CARBID360</p>
+		<p class="text-medium">Over <span class="text-primaryButton text-xl font-extrabold">125,000 Vehicles</span> in</p>
+		<p class="text-medium">Inventory for Businesses</p>
+		<p class="text-medium">& Individuals</p>
 	</div>
 </div>
 

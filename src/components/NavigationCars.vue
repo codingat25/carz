@@ -11,7 +11,7 @@ const navLinks =
 	]
 
 </script>
-<!-- NAVIGATION -->
+<!-- NAVIGATION sdasd -->
 <template>
 <div class="flex flex-col justify-start items-center h-hero-height-mobile w-screen lg:h-hero-height lg:w-full pt-2 bg-mobile-hero md:bg-desktop-hero bg-cover bg-left md:bg-center">
 	<div class="flex justify-between items-center md:justify-center w-full lg:w-12/12 xl:w-11/12 h-16 border border-red-500">

@@ -16,7 +16,7 @@ const navLinks =
 <div class="flex flex-col justify-start items-center h-hero-height-mobile w-screen lg:h-hero-height lg:w-full pt-2 bg-mobile-hero md:bg-desktop-hero bg-cover bg-left md:bg-center">
 	<div class="flex justify-between items-center md:justify-center w-full lg:w-12/12 xl:w-10/12 h-16 ">
 
-		<div class="flex justify-center items-center shrink-0 w-52 h-16 ">
+		<div class="flex justify-center items-center shrink-0 w-60 h-16 ">
 			<img src="../assets/img/HeaderLogo.png" alt="website logo" class="w-[60%]">
 		</div>
 
@@ -49,11 +49,11 @@ const navLinks =
 
 		</div>
 
-		<div class="w-3/4 md:w-1/2 ml-10 md:ml-5">
+		<div class="w-3/4 md:w-1/2 ml-10 md:ml-12">
 			<div class="flex flex-col justify-center w-full h-full text-white font-bold ">
 			<p class="text-xl md:text-2xl lg:text-4xl">WELCOME TO</p>
 			<p class="text-4xl md:text-4xl lg:text-6xl font-black py-3">CARBID360</p>
-			<p class="text-xl md:text-3xl font-medium">Over <span class="text-primaryButton text-xl font-extrabold">125,000 Vehicles</span> in</p>
+			<p class="text-xl md:text-3xl font-medium">Over <span class="text-primaryButton text-xl md:text-3xl font-extrabold">125,000 Vehicles</span> in</p>
 			<p class="text-xl md:text-3xl font-medium">Inventory for Businesses</p>
 			<p class="text-xl md:text-3xl font-medium">& Individuals</p>
 

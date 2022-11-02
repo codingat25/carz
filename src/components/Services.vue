@@ -10,26 +10,13 @@ import { ref } from 'vue';
        
         <div class="flex justify-around items-center flex-col md:flex-row w-full h-3/5 border border-red-500">
            
-           <div class="flex justify-center space-x-4">
-            <div class="w-40 h-40 border border-red-500 rounded-full"></div>
+           <div class="flex justify-center space-x-4 border border-yellow-500">
+            <div class="h-full py-2 w-3/4 border border-red-500 rounded-full"></div>
             <div class="w-64 h-72 border border-green-500 ">
                 <h2>Shipping to any states</h2>
             </div>
            </div>
 
-           <div class="flex justify-center space-x-4">
-            <div class="w-40 h-40 border border-red-500 rounded-full"></div>
-            <div class="w-64 h-72 border border-green-500 ">
-                <h2>Shipping to any states</h2>
-            </div>
-           </div>
-
-           <div class="flex justify-center space-x-4">
-            <div class="w-40 h-40 border border-red-500 rounded-full"></div>
-            <div class="w-64 h-72 border border-green-500 ">
-                <h2>Shipping to any states</h2>
-            </div>
-           </div>
            
 
         </div>

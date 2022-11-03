@@ -20,7 +20,7 @@ const navLinks =
 			<img src="../assets/img/HeaderLogo.png" alt="website logo" class="w-[60%]">
 		</div>
 
-		<nav class="hidden md:flex justify-around items-center grow  text-sm h-16">
+		<nav class="hidden md:flex justify-between items-center grow  text-sm h-16">
 			<a v-for="([title, path]) in navLinks" :key="path" :href="path" 
 			class="rounded-lg text-white font-bold hover:text-primaryButton">
 				{{title}}
@@ -45,19 +45,18 @@ const navLinks =
 	</div>	
 
 	<div class="flex w-full lg:w-12/12 xl:w-10/12 h-full ">
-		<div class="hidden md:flex h-full shrink-0 w-56 ">
+		<div class="md:flex h-full shrink-0 w-10 md:w-60">
 
 		</div>
 
-		<div class="w-3/4 md:w-1/2 ml-10 md:ml-12">
+		<div class="w-8/12 md:w-4/12">
 			<div class="flex flex-col justify-center w-full h-full text-white font-bold ">
 			<p class="text-xl md:text-2xl lg:text-4xl">WELCOME TO</p>
 			<p class="text-4xl md:text-4xl lg:text-6xl font-black py-3">CARBID360</p>
-			<p class="text-xl md:text-3xl font-medium">Over <span class="text-primaryButton text-xl md:text-3xl font-extrabold">125,000 Vehicles</span> in</p>
-			<p class="text-xl md:text-3xl font-medium">Inventory for Businesses</p>
-			<p class="text-xl md:text-3xl font-medium">& Individuals</p>
-
-			<div class="flex flex-row justify-start space-x-4 py-5">
+			<p class="text-xl md:text-3xl font-medium">Over <span class="text-primaryButton text-xl md:text-3xl font-extrabold">125,000 Vehicles</span>
+			 in Inventory for Businesses & Individuals</p>
+		
+			<div class="flex flex-col md:flex-row justify-start space-x-0 md:space-x-4 space-y-1 md:space-y-0 py-5">
 				<div class="flex justify-center shrink-0 w-36 py-2 rounded-md bg-black"><a href="#">App Store</a></div>
 				<div class="flex justify-center shrink-0 w-36 py-2 rounded-md bg-black"><a href="#">Google Play</a></div>
 			</div>

@@ -21,7 +21,7 @@ const navLinks =
 		</div>
 
 		<!-- Menu Items -->
-		<div class="hidden lg:flex justify-between items-center grow-0 space-x-5 lg:grow text-sm h-16">
+		<div class="hidden lg:flex justify-between items-center grow space-x-5 lg:grow text-sm h-16">
 			<a v-for="([title, path]) in navLinks" :key="path" :href="path" 
 			class="tracking-normal rounded-lg text-white font-bold hover:text-primaryButton">
 				{{title}}

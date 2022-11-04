@@ -31,6 +31,12 @@ module.exports = {
         'services-height': '32.9rem',
         'services-mobile-height': '164.5rem'
       },
+      screens: {
+        sm: '480px',
+        md: '768px',
+        lg: '1020px',
+        xl: '1440px'
+      },
     },
   },
   plugins: [],

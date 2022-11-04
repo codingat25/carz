@@ -13,43 +13,44 @@ const navLinks =
 </script>
 <!-- NAVIGATION sdasd -->
 <template>
-<div class="flex flex-col justify-start items-center h-hero-height-mobile w-screen lg:h-hero-height lg:w-full pt-2 bg-mobile-hero md:bg-desktop-hero bg-cover bg-left md:bg-center">
-	<div class="flex justify-between items-center md:justify-center w-full lg:w-12/12 xl:w-10/12 h-16 ">
+<nav class="flex flex-col justify-start items-center h-hero-height-mobile w-screen lg:h-hero-height lg:w-full pt-2 bg-mobile-hero md:bg-desktop-hero bg-cover bg-left md:bg-center">
+	<div class="flex justify-between items-center lg:justify-center w-full lg:w-12/12 xl:w-10/12 h-16 ">
 
-		<div class="flex justify-center items-center shrink-0 w-60 h-16 ">
+		<div class="z-30 flex justify-center items-center shrink-0 w-60 h-16 ">
 			<img src="../assets/img/HeaderLogo.png" alt="website logo" class="w-[60%]">
 		</div>
 
-		<nav class="hidden md:flex justify-between items-center grow  text-sm h-16">
+		<!-- Menu Items -->
+		<div class="hidden lg:flex justify-between items-center grow-0 space-x-5 lg:grow text-sm h-16">
 			<a v-for="([title, path]) in navLinks" :key="path" :href="path" 
-			class="rounded-lg text-white font-bold hover:text-primaryButton">
+			class="tracking-normal rounded-lg text-white font-bold hover:text-primaryButton">
 				{{title}}
 			</a>
-		</nav>
+		</div>
 
 		<div class="hidden lg:flex justify-evenly items-center flex-shrink h-16 w-[25%] text-white ">
 			<div class="flex justify-center w-4/12 p-2 rounded-md bg-primaryButton"><a href="#">Register</a></div>
 			<div class="flex justify-center w-4/12 p-2 rounded-md bg-tertiaryButton"><a href="#">Login</a></div>
 		</div>
 
-		<div class="flex md:hidden justify-center items-center w-1/3 h-full 0">
-			<div class="flex justify-center items-center md:hidden w-10 h-10 text-white border-2 border-white rounded-full ">
-			<a href="">
-				<svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-			</svg>
-			</a>
+		<div class="flex lg:hidden justify-end lg:justify-center items-center w-1/3 h-full">
+			<div class="flex justify-center items-center mr-10 lg:mr-0 w-10 h-10 text-white border-2 border-white rounded-full ">
+				<a href="">
+					<svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+					</svg>
+				</a>
 		</div>
 		</div>
 		
 	</div>	
 
 	<div class="flex w-full lg:w-12/12 xl:w-10/12 h-full ">
-		<div class="md:flex h-full shrink-0 w-10 md:w-60">
+		<div class="flex h-full shrink-0 w-10 lg:w-60">
 
 		</div>
 
-		<div class="w-8/12 md:w-4/12">
+		<div class="w-8/12 lg:w-4/12">
 			<div class="flex flex-col justify-center w-full h-full text-white font-bold ">
 			<p class="text-xl md:text-2xl lg:text-4xl">WELCOME TO</p>
 			<p class="text-4xl md:text-4xl lg:text-6xl font-black py-3">CARBID360</p>
@@ -68,6 +69,6 @@ const navLinks =
 	</div>
 
 
-</div>
+</nav>
 
 </template>

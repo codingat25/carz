@@ -24,6 +24,9 @@ module.exports = {
       backgroundImage: {
         'desktop-hero': "url('src/assets/img/desktop-hero.png')",
         'mobile-hero': "url('src/assets/img/mobile-hero.png')",
+        'import-details':"url('src/assets/img/Import details.png')",
+        'payments': "url('src/assets/img/Payments.png')",
+        'shipping': "url('src/assets/img/Shipping.png')",
       },
       height: {
         'hero-height': '47.375rem',

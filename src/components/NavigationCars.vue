@@ -23,14 +23,14 @@ const navLinks =
 		<!-- Menu Items -->
 		<div class="hidden lg:flex justify-between items-center grow space-x-5 lg:grow text-sm h-16">
 			<a v-for="([title, path]) in navLinks" :key="path" :href="path" 
-			class="tracking-normal rounded-lg text-white font-bold hover:text-primaryButton">
+			class="tracking-normal rounded-lg text-white font-bold hover:text-primaryColor">
 				{{title}}
 			</a>
 		</div>
 
 		<div class="hidden lg:flex justify-evenly items-center flex-shrink h-16 w-[25%] text-white ">
-			<div class="flex justify-center w-4/12 p-2 rounded-md bg-primaryButton"><a href="#">Register</a></div>
-			<div class="flex justify-center w-4/12 p-2 rounded-md bg-tertiaryButton"><a href="#">Login</a></div>
+			<div class="flex justify-center w-4/12 p-2 rounded-md bg-primaryColor"><a href="#">Register</a></div>
+			<div class="flex justify-center w-4/12 p-2 rounded-md bg-tertiaryColor"><a href="#">Login</a></div>
 		</div>
 
 		<div class="flex lg:hidden justify-end lg:justify-center items-center w-1/3 h-full">
@@ -54,7 +54,7 @@ const navLinks =
 			<div class="flex flex-col justify-center w-full h-full text-white font-bold ">
 			<p class="text-xl md:text-2xl lg:text-4xl">WELCOME TO</p>
 			<p class="text-4xl md:text-4xl lg:text-6xl font-black py-3">CARBID360</p>
-			<p class="text-xl md:text-3xl font-medium">Over <span class="text-primaryButton text-xl md:text-3xl font-extrabold">125,000 Vehicles</span>
+			<p class="text-xl md:text-3xl font-medium">Over <span class="text-primaryColor text-xl md:text-3xl font-extrabold">125,000 Vehicles</span>
 			 in Inventory for Businesses & Individuals</p>
 		
 			<div class="flex flex-col md:flex-row justify-start space-x-0 md:space-x-4 space-y-1 md:space-y-0 py-5">
@@ -62,7 +62,7 @@ const navLinks =
 				<div class="flex justify-center shrink-0 w-36 py-2 rounded-md bg-black"><a href="#">Google Play</a></div>
 			</div>
 
-			<div class="flex justify-center shrink-0 w-60 py-3 rounded-md bg-primaryButton"><a href="#">Register</a></div>
+			<div class="flex justify-center shrink-0 w-60 py-3 rounded-md bg-primaryColor"><a href="#">Register</a></div>
 		</div>
 		</div>
 

@@ -10,3 +10,9 @@
         font-family: Mulish, sans-serif;
     }
 }
+
+@layer components {
+  .guide {
+    @apply border border-red-500
+  }
+}

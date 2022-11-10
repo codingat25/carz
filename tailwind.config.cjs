@@ -30,7 +30,7 @@ module.exports = {
       },
       height: {
         'hero-height': '47.375rem',
-        'hero-height-mobile': '34rem',
+        'hero-height-mobile': '38rem',
         'services-height': '32.9rem',
         'services-mobile-height': '164.5rem'
       },

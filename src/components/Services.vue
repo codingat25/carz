@@ -7,7 +7,7 @@ import { ref } from 'vue';
 <template>
     <div class="flex flex-wrap w-full">
         <div class="flex justify-center items-center w-full h-auto">
-            <h1 class="px-10 text-3xl py-16 text-primaryColor text-center font-semibold">
+            <h1 class="px-10 text-3xl py-10 text-primaryColor text-center font-semibold">
                 BUY AND SELL CARS MORE EASILY
             </h1>
         </div>
@@ -24,7 +24,7 @@ import { ref } from 'vue';
  
                 <div class="w-full lg:w-4/5">
                     <h1 class="pb-3 text-2xl text-center font-semibold lg:text-left text-tertiaryColor">Shipping to any state</h1>
-                    <p class="px-10 md:px-0 text-center md:text-left">You may arrange interstate shipping in the US throguh a third-party shipping company of your choice or through our authorized representative. <span class="text-primaryColor"><a href=""> View shipping instructions »</a></span> </p>
+                    <p class="px-10 md:px-0 text-center md:text-left">You may arrange interstate shipping in the US through a third-party shipping company of your choice or through our authorized representative. <span class="text-primaryColor"><a href=""> View shipping instructions »</a></span> </p>
                 </div>
             </div>
 

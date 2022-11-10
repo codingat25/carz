@@ -13,7 +13,7 @@ const navLinks =
 </script>
 <!-- NAVIGATION -->
 <template>
-	<nav class="flex flex-col justify-start items-center h-screen w-screen lg:h-hero-height lg:w-full bg-mobile-hero md:bg-desktop-hero bg-cover bg-center md:bg-center ">
+	<nav class="flex flex-col justify-start items-center h-hero-height-mobile w-screen lg:h-hero-height lg:w-full bg-mobile-hero lg:bg-desktop-hero bg-cover bg-center">
 		<div class="sticky top-0 bg-gray-800 bg-opacity-80 flex  justify-around items-center md:justify-center w-full  h-16 pt-2">
 			<div class="flex w-full md:w-[95%] lg:[90%] xl:w-[80%] h-16">
 				<div class="z-30 flex justify-center items-center shrink-0 lg:w-44 xl:w-60 h-16 pb-2">
@@ -56,12 +56,12 @@ const navLinks =
 				
 			<div class="flex justify-center items-center shrink-0 lg:w-44 xl:w-60 h-full pb-2 "></div>
 			
-			<!-- Menu Items -->
-			<div class="flex justify-start items-center h-full w-full pl-10 lg:pl-0">
-				<div class="w-4/6 md:w-3/6 lg:w-4/6 h-2/3 ">
+			<!-- header message -->
+			<div class="flex justify-start items-center h-full w-full pl-8 lg:pl-0">
+				<div class="w-4/6 md:w-3/6 lg:w-4/6 xl:w-3/6 h-2/3">
 					<div class="flex flex-col justify-center w-full h-full text-white font-bold ">
 						<p class="text-xl md:text-2xl lg:text-4xl">WELCOME TO</p>
-						<p class="text-4xl md:text-4xl lg:text-6xl font-black py-3">CARBID360</p>
+						<p class="text-5xl lg:text-6xl xl:text-7xl font-black py-3">CARBID360</p>
 						<p class="text-xl md:text-3xl font-medium">Over <span
 								class="text-primaryColor text-xl md:text-3xl font-extrabold">125,000 Vehicles</span>
 							in Inventory for Businesses & Individuals</p>
@@ -74,7 +74,7 @@ const navLinks =
 									Play</a></div>
 						</div>
 
-						<div class="flex justify-center shrink-0 w-60 py-3 rounded-md bg-primaryColor"><a
+						<div class="flex justify-center shrink-0 w-56 py-3 rounded-md bg-primaryColor"><a
 								href="#">Register</a></div>
 				</div>
 				</div>

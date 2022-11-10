@@ -1,17 +1,19 @@
 <script setup>
 import { ref } from 'vue';
+
+
 </script>
 
 <template>
     <div class="flex flex-wrap w-full">
         <div class="flex justify-center items-center w-full h-auto">
-            <h1 class="text-2xl md:text-3xl py-16 text-primaryColor font-semibold">
+            <h1 class="text-2xl md:text-3xl py-16 text-primaryColor text-center font-semibold">
                 BUY AND SELL CARS MORE EASILY
             </h1>
         </div>
 
         
-        <div class="space-y-10 lg:space-y-0 space-x-0 lg:space-x-2 xl:space-x-16 flex flex-col lg:flex-row w-full pb-16">
+        <div class="flex flex-col lg:flex-row w-full pb-16">
 
             <div class="flex flex-col md:flex-row justify-around w-full lg:w-1/3 h-auto">
                 <div class="flex justify-center w-full md:w-auto">

@@ -11,7 +11,7 @@ import { ref } from 'vue';
         </div>
 
         
-        <div class="container mx-auto space-y-10 lg:space-y-0 space-x-0 lg:space-x-10 xl:space-x-16 flex flex-col lg:flex-row w-full pb-16">
+        <div class="space-y-10 lg:space-y-0 space-x-0 lg:space-x-2 xl:space-x-16 flex flex-col lg:flex-row w-full pb-16">
 
             <div class="flex flex-col md:flex-row justify-around w-full lg:w-1/3 h-auto">
                 <div class="flex justify-center w-full md:w-auto">

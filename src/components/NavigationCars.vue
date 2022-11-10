@@ -11,12 +11,12 @@ const navLinks =
 	]
 
 </script>
-<!-- NAVIGATION sdasd -->
+<!-- NAVIGATION -->
 <template>
-<nav class="flex flex-col justify-start items-center h-hero-height-mobile w-screen lg:h-hero-height lg:w-full pt-2 bg-mobile-hero md:bg-desktop-hero bg-cover bg-left md:bg-center">
-	<div class="flex justify-between items-center lg:justify-center w-full lg:w-12/12 xl:w-10/12 h-16 ">
+<nav class="flex flex-col justify-start items-center h-hero-height-mobile w-screen lg:h-hero-height lg:w-full bg-mobile-hero md:bg-desktop-hero bg-cover bg-left md:bg-center">
+	<div class="sticky top-0 flex justify-between items-center lg:justify-center w-full lg:w-12/12 xl:w-10/12 h-16 pt-2">
 
-		<div class="z-30 flex justify-center items-center shrink-0 w-60 h-16 ">
+		<div class="z-30 flex justify-center items-center shrink-0 w-60 h-16">
 			<img src="../assets/img/HeaderLogo.png" alt="website logo" class="w-[60%]">
 		</div>
 
@@ -65,10 +65,7 @@ const navLinks =
 			<div class="flex justify-center shrink-0 w-60 py-3 rounded-md bg-primaryColor"><a href="#">Register</a></div>
 		</div>
 		</div>
-
 	</div>
-
-
 </nav>
 
 </template>

@@ -13,7 +13,7 @@ import { ref } from 'vue';
         </div>
 
         
-        <div class="flex flex-col lg:flex-row w-full space-y-10 lg:space-y-0 space-x-0 lg:space-x-10 px-10 lg:px-0 py-0 lg:py-10">
+        <div class="flex flex-col lg:flex-row w-full space-y-10 lg:space-y-0 space-x-0 lg:space-x-5 px-10 ">
 
             <div class="flex flex-col md:flex-row justify-around w-full lg:w-1/3 h-auto">
                 <div class="flex justify-center w-full md:w-auto">

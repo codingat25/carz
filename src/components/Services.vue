@@ -24,7 +24,7 @@ import { ref } from 'vue';
  
                 <div class="w-full lg:w-4/5">
                     <h1 class="pb-3 text-2xl text-center font-semibold lg:text-left text-tertiaryColor">Shipping to any state</h1>
-                    <p class="px-10 md:px-0 text-center md:text-left">You may arrange interstate shipping in the US through a third-party shipping company of your choice or through our authorized representative. <span class="text-primaryColor"><a href=""> View shipping instructions »</a></span> </p>
+                    <p class="px-10 md:px-0 text-justify md:text-left">You may arrange interstate shipping in the US through a third-party shipping company of your choice or through our authorized representative. <span class="text-primaryColor"><a href=""> View shipping instructions »</a></span> </p>
                 </div>
             </div>
 
@@ -37,7 +37,7 @@ import { ref } from 'vue';
  
                 <div class="w-full lg:w-4/5">
                     <h1 class="pb-3 text-2xl text-center font-semibold lg:text-left text-tertiaryColor">Payments</h1>
-                    <p class="px-10 md:px-0 text-center md:text-left">All payments are due with 2 business days after sale. Buyers from other states are highly recommended to add funds to their account ahead of time.  <span class="text-primaryColor"><a href="">View payment  instructions »</a></span> </p>
+                    <p class="px-10 md:px-0 text-justify md:text-left">All payments are due with 2 business days after sale. Buyers from other states are highly recommended to add funds to their account ahead of time.  <span class="text-primaryColor"><a href="">View payment  instructions »</a></span> </p>
                 </div>
             </div>
 
@@ -50,7 +50,7 @@ import { ref } from 'vue';
  
                 <div class="w-full lg:w-4/5">
                     <h1 class="pb-3 text-2xl text-center font-semibold lg:text-left text-tertiaryColor">Import Details</h1>
-                    <p class="px-10 md:px-0 text-center md:text-left">Visit  <span class="text-primaryColor"><a href="#">Your state customs website</a> </span>  to learn more about the laws and regulation of importing cars into your state.</p>
+                    <p class="px-10 md:px-0 text-justify md:text-left">Visit  <span class="text-primaryColor"><a href="#">Your state customs website</a> </span>  to learn more about the laws and regulation of importing cars into your state.</p>
                 </div>
             </div>
 

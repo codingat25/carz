@@ -5,7 +5,7 @@ import { ref } from 'vue';
 </script>
 
 <template>
-    <div class="flex flex-wrap w-full">
+    <div class="flex flex-wrap w-full py-12">
         <div class="flex justify-center items-center w-full h-auto">
             <h1 class="px-10 text-3xl py-10 text-primaryColor text-center font-semibold">
                 BUY AND SELL CARS MORE EASILY
@@ -13,7 +13,7 @@ import { ref } from 'vue';
         </div>
 
         
-        <div class="flex flex-col lg:flex-row w-full space-y-10 lg:space-y-0 space-x-0 lg:space-x-5 px-10 ">
+        <div class="flex flex-col lg:flex-row w-full space-y-10 lg:space-y-0 space-x-0 lg:space-x-5 px-10">
 
             <div class="flex flex-col md:flex-row justify-around w-full lg:w-1/3 h-auto">
                 <div class="flex justify-center w-full md:w-auto">
@@ -54,6 +54,7 @@ import { ref } from 'vue';
                 </div>
             </div>
 
+            <div class="flex justify-center items-center w-full bg-tertiaryColor rounded-lg"><a href="#" class="py-3 px-3 text-white font-bold uppercase">BROWSE MORE VEHICLES</a></div>
         </div>
     </div>
 

@@ -27,6 +27,7 @@ module.exports = {
         'import-details':"url('src/assets/img/Import details.png')",
         'payments': "url('src/assets/img/Payments.png')",
         'shipping': "url('src/assets/img/Shipping.png')",
+        'app-pic': "url('src/assets/img/app.png')"
       },
       height: {
         'hero-height': '47.375rem',

@@ -24,16 +24,9 @@ module.exports = {
       backgroundImage: {
         'desktop-hero': "url('src/assets/img/desktop-hero.png')",
         'mobile-hero': "url('src/assets/img/mobile-hero.png')",
-        'import-details':"url('src/assets/img/Import details.png')",
-        'payments': "url('src/assets/img/Payments.png')",
-        'shipping': "url('src/assets/img/Shipping.png')",
-        'app-pic': "url('src/assets/img/app.png')"
       },
       height: {
-        'hero-height': '47.375rem',
-        'hero-height-mobile': '38rem',
-        'services-height': '32.9rem',
-        'services-mobile-height': '164.5rem'
+     
       },
       screens: {
         sm: '480px',

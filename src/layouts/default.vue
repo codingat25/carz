@@ -1,4 +1,4 @@
-<script>
+<script setup>
 import NavigationCars from "../components/NavigationCars.vue";
 import FindVehicle from "../components/FindVehicle.vue";
 import Services from "../components/Services.vue";
@@ -9,8 +9,8 @@ import Download from "../components/NavigationCars.vue";
 
 <div class="guide">
 <!-- Header and Navigation -->
-    <header class="h-screen">
-
+    <header class="items-start">
+        <NavigationCars/>
     </header>
 
 <!-- Services -->

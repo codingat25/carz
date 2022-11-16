@@ -24,6 +24,7 @@ module.exports = {
       backgroundImage: {
         'desktop-hero': "url('src/assets/img/desktop-hero.png')",
         'mobile-hero': "url('src/assets/img/mobile-hero.png')",
+        'logo': "url('src/assets/img/HeaderLogo.png')"
       },
       height: {
      

@@ -35,6 +35,12 @@ module.exports = {
         lg: '1020px',
         xl: '1440px'
       },
+      backgroundPosition: {
+        'right-2': '70%'
+      },
+      screens: {
+        'md': '561.6px'
+      },
     },
   },
   plugins: [],

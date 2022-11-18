@@ -9,9 +9,9 @@ import Download from "../components/NavigationCars.vue";
 
 <div class="guide">
 <!-- Header and Navigation -->
-    <header class="items-start">
+    <hgroup class="items-start h-screen bg-mobile-hero md:bg-desktop-hero bg-no-repeat bg-cover bg-right-2">
         <NavigationCars/>
-    </header>
+    </hgroup>
 
 <!-- Services -->
     <div class="guide h-[527px]">

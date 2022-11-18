@@ -29,9 +29,9 @@
         <div class="col-span-3 lg:hidden">
             <div class="flex justify-end pr-10 items-center h-full">
                 <svg viewBox="0 0 100 60" width="40" height="40" class="fill-white">
-                    <rect width="90" height="10" ></rect>
-                    <rect y="30" width="90" height="10"></rect>
-                    <rect y="60" width="90" height="10"></rect>
+                    <rect width="80" height="10" ></rect>
+                    <rect y="30" width="80" height="10"></rect>
+                    <rect y="60" width="80" height="10"></rect>
                 </svg>
             </div>
         </div>

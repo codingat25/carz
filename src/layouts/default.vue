@@ -3,14 +3,16 @@ import NavigationCars from "../components/NavigationCars.vue";
 import FindVehicle from "../components/FindVehicle.vue";
 import Services from "../components/Services.vue";
 import Download from "../components/NavigationCars.vue";
+import Welcome from "../components/Welcome.vue";
 </script>
 
 <template>
 
-<div class="guide">
+<div class="">
 <!-- Header and Navigation -->
-    <hgroup class="items-start h-screen bg-mobile-hero md:bg-desktop-hero bg-no-repeat bg-cover bg-right-2">
+    <hgroup class="items-start h-[75vh] md:h-screen w-auto bg-mobile-hero lg:bg-desktop-hero bg-cover bg-right-2 md:bg-center">
         <NavigationCars/>
+        <Welcome/>
     </hgroup>
 
 <!-- Services -->

@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primaryColor: '#FD8E35',
+        orange: '#FD8E35',
         secondaryColor: '#F3F5F8',
         tertiaryColor: '#296D8F',
         bgBlue: '#F3F5F8',
@@ -20,6 +20,13 @@ module.exports = {
       },
       fontFamily: {
         'sans': ['Mulish', ...defaultTheme.fontFamily.sans],
+      },
+      fontSize: {
+        sm: ['14px','16px'],
+        lg: ['20px', '30px'],
+        xl: ['31px', '40px'],
+        '2xl': ['41px', '70px']
+
       },
       backgroundImage: {
         'desktop-hero': "url('src/assets/img/desktop-hero.png')",

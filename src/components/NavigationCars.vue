@@ -2,31 +2,31 @@
 </script>
 
 <template>
-    <nav class="fixed top-0 grid grid-cols-6 overflow-hidden w-screen bg-gray-900/60 guide">
+    <nav class="fixed top-0 grid grid-cols-8 overflow-hidden w-screen bg-gray-900/60 ">
 
         <!-- Logo -->
-        <div class="col-span-3 lg:col-span-1 flex justify-center items-center">
+        <div class="col-span-3 lg:col-span-2 flex justify-center md:justify-end pl-10 md:pl-0 pr-0 md:pr-10 items-center">
             <img class="min-w-fit max-w-fit h-[70%] w-[70%]" src="../assets/img/HeaderLogo.png" alt="logo">
         </div>
 
         <!-- Navigation Links -->
-        <ul class="hidden md:col-span-4 lg:flex justify-around items-center text-sm text-white guide">
-            <li class="hover:text-orange-500"><a href="#">Home</a></li>
-            <li class="hover:text-orange-500"><a href="#">Buy Vehicle</a></li>
-            <li class="hover:text-orange-500"><a href="#">Sell Vehicle</a></li>
-            <li class="hover:text-orange-500"><a href="#">My Inventory</a></li>
-            <li class="hover:text-orange-500"><a href="#">Help</a></li>
-            <li class="hover:text-orange-500"><a href="#">Contact US</a></li>
+        <ul class="hidden md:col-span-3 lg:flex justify-between items-center text-sm text-white ">
+            <li class="hover:text-orange"><a href="#">Home</a></li>
+            <li class="hover:text-orange"><a href="#">Buy Vehicle</a></li>
+            <li class="hover:text-orange"><a href="#">Sell Vehicle</a></li>
+            <li class="hover:text-orange"><a href="#">My Inventory</a></li>
+            <li class="hover:text-orange"><a href="#">Help</a></li>
+            <li class="hover:text-orange"><a href="#">Contact US</a></li>
         </ul>
 
         <!-- Register Login -->
-        <div class="hidden lg:flex justify-around items-center text-white space-x-1 pr-5">
-            <div class="flex justify-center items-center w-24 p-2 rounded-lg bg-orange-500 hover:bg-orange-400"><a href="">Register</a></div>
-            <div class="flex justify-center items-center w-24 p-2 rounded-lg bg-tertiaryColor hover:bg-sky-600"><a href="">Login</a></div>
+        <div class="hidden md:col-span-2 lg:flex justify-center items-center gap-3 text-white">
+            <div class="flex justify-center items-center px-8 xl:px-10 py-1 rounded-lg bg-orange hover:bg-orange-400"><a href="">Register</a></div>
+            <div class="flex justify-center items-center px-8 xl:px-10 py-1 rounded-lg bg-tertiaryColor hover:bg-sky-600"><a href="">Login</a></div>
         </div>
 
         <!-- Hamburger Menu -->
-        <div class="col-span-3 lg:hidden">
+        <div class="col-span-5 lg:hidden flex justify-end">
             <div class="flex justify-end pr-10 items-center h-full">
                 <!-- X -->
                 <svg viewBox="0 0 100 60" width="40" height="40" class="fill-white">

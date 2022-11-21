@@ -2,15 +2,15 @@
 </script>
 
 <template>
-    <nav class="fixed top-0 grid grid-cols-8 overflow-hidden w-screen bg-gray-900/60 ">
+    <nav class="fixed top-0 grid grid-cols-8  w-screen bg-gray-900/60 ">
 
         <!-- Logo -->
-        <div class="col-span-3 lg:col-span-2 flex justify-center md:justify-end pl-10 md:pl-0 pr-0 md:pr-10 items-center">
+        <div class="col-span-4 lg:col-span-2 flex justify-start lg:justify-end  pl-5 lg:pl-0 pr-0 md:pr-10 items-center overflow-hidden">
             <img class="min-w-fit max-w-fit h-[70%] w-[70%]" src="../assets/img/HeaderLogo.png" alt="logo">
         </div>
 
         <!-- Navigation Links -->
-        <ul class="hidden md:col-span-3 lg:flex justify-between items-center text-sm text-white ">
+        <ul class="hidden md:col-span-3 lg:flex justify-between items-center text-xs text-white ">
             <li class="hover:text-orange"><a href="#">Home</a></li>
             <li class="hover:text-orange"><a href="#">Buy Vehicle</a></li>
             <li class="hover:text-orange"><a href="#">Sell Vehicle</a></li>
@@ -26,7 +26,7 @@
         </div>
 
         <!-- Hamburger Menu -->
-        <div class="col-span-5 lg:hidden flex justify-end">
+        <div class="col-span-4 lg:hidden flex justify-end">
             <div class="flex justify-end pr-10 items-center h-full">
                 <!-- X -->
                 <svg viewBox="0 0 100 60" width="40" height="40" class="fill-white">
@@ -35,7 +35,6 @@
                     <rect y="60" width="80" height="10"></rect>
                 </svg>
 
-                
             </div>
         </div>
     </nav>

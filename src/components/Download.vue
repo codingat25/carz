@@ -19,7 +19,7 @@
           itaque eius.
         </p>
  
-    <div class="flex flex-col md:flex-row justify-center md:justify-start items-center gap-2">
+    <div class="flex flex-col md:flex-row justify-center lg:justify-start items-center gap-2">
         <img src="../assets/img/button_appstore.png" alt="" class="max-w-[11rem] lg:max-w-[20rem] ">
         <img src="../assets/img/button_googleplay.png" alt="" class="max-w-[11rem] lg:max-w-[20rem] ">
     </div>

@@ -10,14 +10,14 @@ import Welcome from "../components/Welcome.vue";
 
 <div class="">
 <!-- Header and Navigation -->
-    <hgroup class="items-start h-[75vh] md:h-screen w-auto bg-mobile-hero lg:bg-desktop-hero bg-cover bg-right-2 md:bg-center">
+    <header class="items-start h-[75vh] md:h-screen w-auto bg-mobile-hero lg:bg-desktop-hero bg-cover bg-right-2 md:bg-center">
         <NavigationCars/>
         <Welcome/>
-    </hgroup>
+    </header>
 
 <!-- Services -->
     <div class="guide h-[527px]">
-
+        <Services/>
     </div>
 
 <!-- Customers  -->

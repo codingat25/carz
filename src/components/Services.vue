@@ -2,9 +2,9 @@
 </script>
 
 <template>
-    <div class="flex flex-col w-auto h-auto pt-10">
+    <div class="flex flex-col w-auto h-auto py-16">
         <div class="flex justify-center items-center w-full pt-5">
-            <h1 class="text-orange font-bold text-base md:text-lg">BUY AND SELL CARS EASILY</h1>
+            <h1 class="text-orange font-bold text-lg md:text-xl text-center">BUY AND SELL CARS EASILY</h1>
         </div>
 
         <div class="grid grid-cols-8 py-10">

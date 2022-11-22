@@ -4,49 +4,50 @@ import FindVehicle from "../components/FindVehicle.vue";
 import Services from "../components/Services.vue";
 import Download from "../components/NavigationCars.vue";
 import Welcome from "../components/Welcome.vue";
+import Dealers from "../components/Dealers.vue";
 </script>
 
 <template>
 
 <div class="">
 <!-- Header and Navigation -->
-    <header class="items-start h-[75vh] md:h-screen w-auto bg-mobile-hero lg:bg-desktop-hero bg-cover bg-right-2 md:bg-center">
+    <header class="items-start h-[75vh] md:h-screen w-auto bg-mobile-hero md:bg-desktop-hero bg-cover bg-right-2 md:bg-center">
         <NavigationCars/>
         <Welcome/>
     </header>
 
 <!-- Services -->
-    <div class="guide h-[527px]">
+    <div class="">
         <Services/>
     </div>
 
 <!-- Customers  -->
-    <div class="guide h-[674px]">
-
+    <div class="">
+        <Dealers/>
     </div>
 
 <!-- Download -->
-    <div class="guide h-[614px]">
+    <div class="">
 
     </div>
 
 <!-- How It Works -->
-    <div class="guide h-[1136px]">
+    <div class="">
 
     </div>
 
 <!-- Why Carbid -->
-    <div class="guide h-[674px]">
+    <div class="">
 
     </div>
 
 <!-- Newsletter -->
-    <div class="guide h-[242px]">
+    <div class="">
 
     </div>
 
 <!-- Footer -->
-    <footer class="guide h-[420px]">
+    <footer class="">
 
     </footer>
 </div>

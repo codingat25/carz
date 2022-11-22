@@ -10,7 +10,7 @@
         </div>
 
         <!-- Navigation Links -->
-        <ul class="col-start-3 col-span-3 hidden lg:flex justify-between items-center text-xs text-white ">
+        <ul class="col-start-3 col-span-3 hidden lg:flex justify-between items-center text-xs xl:text-sm text-white ">
             <li class="hover:text-orange"><a href="#">Home</a></li>
             <li class="hover:text-orange"><a href="#">Buy Vehicle</a></li>
             <li class="hover:text-orange"><a href="#">Sell Vehicle</a></li>

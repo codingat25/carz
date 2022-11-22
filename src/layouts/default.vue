@@ -2,7 +2,7 @@
 import NavigationCars from "../components/NavigationCars.vue";
 import FindVehicle from "../components/FindVehicle.vue";
 import Services from "../components/Services.vue";
-import Download from "../components/NavigationCars.vue";
+import Download from "../components/Download.vue";
 import Welcome from "../components/Welcome.vue";
 import Dealers from "../components/Dealers.vue";
 </script>
@@ -28,7 +28,7 @@ import Dealers from "../components/Dealers.vue";
 
 <!-- Download -->
     <div class="">
-
+        <Download/>
     </div>
 
 <!-- How It Works -->

@@ -22,13 +22,15 @@ module.exports = {
         'sans': ['Mulish', ...defaultTheme.fontFamily.sans],
       },
       fontSize: {
-        'xs': '14px',
-        sm: '16px',
-        base: '20px',
-        lg: '30px',
-        xl: '38px',
-        '2xl': '60px',
-        '3xl': ['70px']
+        xs: '.8rem',
+        sm: '1rem',
+        base: '1.3rem',
+        lg: '1.8rem',
+        xl: '2rem',
+        '2xl': '2.5rem',
+        '3xl': '3rem',
+        '4xl': '3.5rem',
+        '5xl': '4.5rem',
       },
       backgroundImage: {
         'desktop-hero': "url('src/assets/img/desktop-hero.png')",

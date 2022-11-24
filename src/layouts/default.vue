@@ -5,6 +5,7 @@ import Services from "../components/Services.vue";
 import Download from "../components/Download.vue";
 import Welcome from "../components/Welcome.vue";
 import Dealers from "../components/Dealers.vue";
+import WhyCarbid from "../components/WhyCarbid.vue";
 </script>
 
 <template>
@@ -38,7 +39,7 @@ import Dealers from "../components/Dealers.vue";
 
 <!-- Why Carbid -->
     <div class="">
-
+        <WhyCarbid/>
     </div>
 
 <!-- Newsletter -->

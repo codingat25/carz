@@ -17,6 +17,7 @@ module.exports = {
         fontColorCyan: '#296D8F',
         fontColorOrange: '#FD8E35',
         fontColorGray: '#585858',
+        lightBlue: '#F4FDFC',
       },
       fontFamily: {
         'sans': ['Mulish', ...defaultTheme.fontFamily.sans],

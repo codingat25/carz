@@ -23,8 +23,8 @@
 
                 <!-- PROFESSIONAL DEALERS -->
                 <div class="flex h-auto gap-5">
-                    <div class="flex justify-center border-2 border-cyan-700 h-20 w-20 rounded-full">
-                        <img src="../assets/img/rating.png" alt="" class="w-15 h-15 p-2">
+                    <div class="flex justify-center items-center border-2 border-cyan-700 h-14 w-14 lg:h-20 lg:w-20 rounded-full">
+                        <img src="../assets/img/rating.png" alt="" class="w-10 h-10 lg:w-15 lg:h-15 p-1 lg:p-2">
                     </div>
                     <div class="guide w-4/5 lg:w-2/5">
                         <p class="text-xs">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex obcaecati pariatur, eligendi nostrum quam sed illum possimus consectetur unde aperiam nam quisquam quaerat tenetur dolorum sunt consequatur ipsam! Quia, voluptatem.</p>

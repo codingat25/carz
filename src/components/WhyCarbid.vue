@@ -2,55 +2,59 @@
 </script>
 
 <template>
-    <div class="grid grid-cols-8 bg-lightBlue gap-10 py-20">
-        <div class="col-span-8 flex flex-col justify-center items-center">
-            <h1 class=" text-orange text-2xl font-semibold text-center">WHY CHOOSE CARBID360</h1>
-            <p class="text-center w-full lg:w-1/3 px-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, sunt! Sit quae, odio perspiciatis assumenda dolore provident 
-                pariatur iusto dignissimos quaerat nobis, in veritatis fugit! Itaque praesentium sit sapiente doloremque!</p>
+    <div class="grid grid-cols-8 bg-lightBlue gap-y-20 py-20 guide">
+        <div class="col-start-2 col-span-6 flex flex-col justify-center items-center">
+            <h1 class=" text-orange text-xl font-semibold text-center">WHY CHOOSE CARBID360</h1>
+            <p class="text-sm text-center w-full lg:w-2/5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, sunt! Sit quae, odio perspiciatis assumenda dolore provident 
+                pariatur iusto dignissimos quaerat nobis, in veritatis fugit! Itaque praesentium sit sapiente doloremque!
+            </p>
         </div>
-        <div class="col-start-2 col-span-6 guide">
-            <div class="flex flex-col gap-10">
 
-                <!-- TRUSTED BY THOUSANDS -->
-               <div class="flex h-auto gap-5">
-                    <div class="flex justify-center border-2 border-cyan-700 h-20 w-20 rounded-full">
-                        <img src="../assets/img/rating.png" alt="" class="w-15 h-15 p-2">
+        <div class="col-start-1 col-span-8 lg:col-start-2 lg:col-span-6 grid grid-cols-8 gap-y-10 lg:gap-y-0">
+            <div class="col-start-2 col-span-8 lg:col-span-4  grid grid-cols-8 gap-10 pr-5 ">
+                <div class="grid justify-self-center">
+                    <div class="flex justify-center h-20 w-20 border-2 rounded-full border-cyan-700">
+                        <img src="../assets/img/rating.png" alt="trusted" class="p-3">
                     </div>
-                    <div class="guide w-4/5 lg:w-2/5">
-                        <p class="text-xs">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex obcaecati pariatur, eligendi nostrum quam sed illum possimus consectetur unde aperiam nam quisquam quaerat tenetur dolorum sunt consequatur ipsam! Quia, voluptatem.</p>
-                    </div>
-               </div>
+                </div>
+                <div class="col-start-2 col-span-7 md:col-span-7 ml-5 md:ml-0">
+                    <h2 class="pl-2 text-base font-medium text-cyan-700">TRUSTED BY THOUSANDS</h2>
+                    <p class="pl-2 text-xs">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel illo aliquam eius repellat cumque porro commodi adipisci ipsam deserunt nemo tempora voluptatem pariatur, excepturi ea laudantium. Aspernatur dicta autem ducimus.</p>
+                </div>
 
-                <!-- PROFESSIONAL DEALERS -->
-                <div class="flex h-auto gap-5">
-                    <div class="flex justify-center items-center border-2 border-cyan-700 h-14 w-14 lg:h-20 lg:w-20 rounded-full">
-                        <img src="../assets/img/rating.png" alt="" class="w-10 h-10 lg:w-15 lg:h-15 p-1 lg:p-2">
+                <div class="grid justify-self-center">
+                    <div class="flex justify-center h-20 w-20 border-2 rounded-full border-cyan-700">
+                        <img src="../assets/img/team.png" alt="" class="p-3">
                     </div>
-                    <div class="guide w-4/5 lg:w-2/5">
-                        <p class="text-xs">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex obcaecati pariatur, eligendi nostrum quam sed illum possimus consectetur unde aperiam nam quisquam quaerat tenetur dolorum sunt consequatur ipsam! Quia, voluptatem.</p>
-                    </div>
-               </div>
+                </div>
+                <div class="col-start-2 col-span-7 md:col-span-7 ml-5 md:ml-0">
+                    <h2 class="pl-2 text-base font-medium text-cyan-700">PROFESSIONAL DEALERS</h2>
+                    <p class="pl-2 text-xs">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel illo aliquam eius repellat cumque porro commodi adipisci ipsam deserunt nemo tempora voluptatem pariatur, excepturi ea laudantium. Aspernatur dicta autem ducimus.</p>
+                </div>
 
-                <!-- WIDE RANGE VEHICLES -->
-               <div class="flex h-auto gap-5">
-                    <div class="flex justify-center border-2 border-cyan-700 h-20 w-20 rounded-full">
-                        <img src="../assets/img/rating.png" alt="" class="w-15 h-15 p-2">
+                <div class="grid justify-self-center">
+                    <div class="flex justify-center h-20 w-20 border-2 rounded-full border-cyan-700">
+                        <img src="../assets/img/van.png" alt="" class="p-3">
                     </div>
-                    <div class="guide w-4/5 lg:w-2/5">
-                        <p class="text-xs">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex obcaecati pariatur, eligendi nostrum quam sed illum possimus consectetur unde aperiam nam quisquam quaerat tenetur dolorum sunt consequatur ipsam! Quia, voluptatem.</p>
-                    </div>
-               </div>
+                </div>
+                <div class="col-start-2 col-span-7 md:col-span-7 ml-5 md:ml-0">
+                    <h2 class="pl-2 text-base font-medium text-cyan-700">WIDE RANGE OF VEHICLES</h2>
+                    <p class="pl-2 text-xs">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel illo aliquam eius repellat cumque porro commodi adipisci ipsam deserunt nemo tempora voluptatem pariatur, excepturi ea laudantium. Aspernatur dicta autem ducimus.</p>
+                </div>
 
-                <!-- FASTER BUY AND SELL -->
-               <div class="flex h-auto gap-5">
-                    <div class="flex justify-center border-2 border-cyan-700 h-20 w-20 rounded-full">
-                        <img src="../assets/img/rating.png" alt="" class="w-15 h-15 p-2">
+                <div class="grid justify-self-center">
+                    <div class="flex justify-center h-20 w-20 border-2 rounded-full border-cyan-700">
+                        <img src="../assets/img/pay.png" alt="" class="p-3">
                     </div>
-                    <div class="guide w-4/5 lg:w-2/5">
-                        <p class="text-xs">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex obcaecati pariatur, eligendi nostrum quam sed illum possimus consectetur unde aperiam nam quisquam quaerat tenetur dolorum sunt consequatur ipsam! Quia, voluptatem.</p>
-                    </div>
-               </div>
-               
+                </div>
+                <div class="col-start-2 col-span-7 md:col-span-7 ml-5 md:ml-0">
+                    <h2 class="pl-2 text-base font-medium text-cyan-700">FASTER BUY AND SELL</h2>
+                    <p class="pl-2 text-xs">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel illo aliquam eius repellat cumque porro commodi adipisci ipsam deserunt nemo tempora voluptatem pariatur, excepturi ea laudantium. Aspernatur dicta autem ducimus.</p>
+                </div>
+            </div>
+
+            <div class="col-span-8 lg:col-span-4 flex items-center">
+                <img src="../assets/img/Artwork.png" alt="" class="">
             </div>
         </div>
         

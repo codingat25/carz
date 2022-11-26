@@ -48,7 +48,7 @@ module.exports = {
         xl: '1440px'
       },
       backgroundPosition: {
-        'right-2': '85%'
+        'right-2': '70%'
       },
 
     },

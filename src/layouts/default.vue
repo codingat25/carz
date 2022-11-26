@@ -12,7 +12,7 @@ import WhyCarbid from "../components/WhyCarbid.vue";
 
 <div class="">
 <!-- Header and Navigation -->
-    <header class="items-start h-[75vh] md:h-screen w-auto bg-mobile-hero md:bg-desktop-hero bg-cover bg-right-2 md:bg-center">
+    <header class="items-start h-[100vh] md:h-screen w-auto bg-mobile-hero lg:bg-desktop-hero bg-cover bg-right-2 md:bg-center">
         <NavigationCars/>
         <Welcome/>
     </header>

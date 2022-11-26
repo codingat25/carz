@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <div class="grid grid-cols-8 bg-lightBlue gap-y-20 py-20 guide">
+    <div class="grid grid-cols-8 bg-lightBlue gap-y-20 py-20">
         <div class="col-start-2 col-span-6 flex flex-col justify-center items-center">
             <h1 class=" text-orange text-xl font-semibold text-center">WHY CHOOSE CARBID360</h1>
             <p class="text-sm text-center w-full lg:w-2/5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, sunt! Sit quae, odio perspiciatis assumenda dolore provident 

@@ -4,7 +4,7 @@
   <div class="flex flex-col lg:flex-row justify-center items-center bg-bgDark gap-1 md:gap-14">
 
     <div class="flex justify-center w-full lg:w-1/5">
-        <img src="../assets/img/app.png" alt="" class="max-w-[20rem] lg:max-w-[25rem] -mt-10 -mb-10 md:-mt-16 md:-mb-16">
+        <img src="../assets/img/app.png" alt="" class="max-w-[15rem] md:max-w-[20rem] lg:max-w-[25rem] -mt-10 -mb-10 md:-mt-16 md:-mb-16">
     </div>
 
     <div class="ml-0 lg:ml-18 w-full lg:w-2/5 px-10 text-center lg:text-left">

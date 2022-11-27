@@ -5,6 +5,7 @@ import Services from "../components/Services.vue";
 import Download from "../components/Download.vue";
 import Welcome from "../components/Welcome.vue";
 import Dealers from "../components/Dealers.vue";
+import HowItWorks from "../components/HowItWorks.vue";
 import WhyCarbid from "../components/WhyCarbid.vue";
 </script>
 
@@ -34,7 +35,7 @@ import WhyCarbid from "../components/WhyCarbid.vue";
 
 <!-- How It Works -->
     <div class="">
-
+        <HowItWorks/>
     </div>
 
 <!-- Why Carbid -->

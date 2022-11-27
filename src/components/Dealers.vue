@@ -4,7 +4,7 @@
 <template>
     <div class="flex flex-col w-auto h-auto py-16 bg-indigo-50">
         <div class="flex justify-center items-center w-full pt-5">
-            <h1 class="text-cyan-700 font-bold text-lg md:text-xl text-center mx-3 lg:mx-0">OUR SATISFIED DEALERS</h1>
+            <h1 class="text-cyan-700 font-extrabold text-lg md:text-xl text-center mx-3 lg:mx-0">OUR SATISFIED DEALERS</h1>
         </div>
 
         <div class="grid grid-cols-8 py-10">

@@ -7,6 +7,7 @@ import Welcome from "../components/Welcome.vue";
 import Dealers from "../components/Dealers.vue";
 import HowItWorks from "../components/HowItWorks.vue";
 import WhyCarbid from "../components/WhyCarbid.vue";
+import Newsletter from "../components/Newsletter.vue";
 </script>
 
 <template>
@@ -45,7 +46,7 @@ import WhyCarbid from "../components/WhyCarbid.vue";
 
 <!-- Newsletter -->
     <div class="">
-
+        <Newsletter/>
     </div>
 
 <!-- Footer -->
